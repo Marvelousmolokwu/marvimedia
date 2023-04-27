@@ -7,10 +7,10 @@ const Home = () => {
   return (
     <>
       <Topbar />
-      <main className="overflow-y-hidden">
+      <main className="overflow-hidden">
         <Sidebar />
-        <Rightbar />
         <Feed />
+        <Rightbar />
       </main>
     </>
   );

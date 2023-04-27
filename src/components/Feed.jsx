@@ -1,5 +1,16 @@
+import Post from "./post";
+import Share from "./share";
+
 const Feed = () => {
-  return <p>feed</p>;
+  return (
+    <>
+      <Share />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+    </>
+  );
 };
 
 export default Feed;

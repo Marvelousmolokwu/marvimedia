@@ -13,7 +13,7 @@
     @apply h-screen;
   }
   .scrollbar::-webkit-scrollbar {
-    width: 5px;
+    width: 10px;
   }
   .scrollbar::-webkit-scrollbar-track {
     background-color: #e6edef;

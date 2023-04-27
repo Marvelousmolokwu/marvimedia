@@ -1,6 +1,6 @@
 const Sidebar = () => {
   return (
-    <nav className="sidebar p-5  w-[50%] overflow-y-scroll scrollbar hidden">
+    <nav className="sidebar p-5  w-[50%] overflow-y-scroll scrollbar -translate-x-full hidden ">
       <ul className="flex flex-col gap-1 text-left">
         <li className="flex items-end justify-start py-2 hover:bg-blulish hover:-translate-y-2">
           <img src="/src/images/icons8-feed-64.png" className="h-6" alt="" />

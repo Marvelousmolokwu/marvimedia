@@ -1,6 +1,6 @@
 const Topbar = () => {
   return (
-    <header className="bg-blue font-roboto h-40">
+    <header className="bg-blue font-roboto h-40  w-full sticky top-0 z-10">
       <div className=" max-w-[90%] mx-auto py-4 flex flex-col gap-4">
         <h1 className="text-2xl text-blulish font-black tracking-wide">
           MarviMedia
