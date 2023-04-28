@@ -10,6 +10,12 @@ export default {
       profile: "url('/src/images/woman1.avif')",
       profile2: "url('/src/images/man1.avif')",
     },
+    screens: {
+      sm: "480px",
+      md: "768px",
+      lg: "1200px",
+      xl: "1500px",
+    },
 
     extend: {
       colors: {

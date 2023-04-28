@@ -8,12 +8,12 @@ const Post = () => {
         <img
           src="/src/images/icons8-menu-24.png"
           alt=""
-          className="h-4 ml-auto cursor-pointer"
+          className="h-4 ml-auto cursor-pointer "
         />
       </div>
       <h3 className="my-4">Hey! its my first Post ✌</h3>
       <div>
-        <img src="/src/images/bead.avif" alt="" />
+        <img src="/src/images/bead.avif" alt="" className="lg:w-full" />
       </div>
       <div className="flex mt-3 items-center gap-2">
         <button className="hover:-translate-y-[0.5px] hover:sepia active:sepia focus:sepia">

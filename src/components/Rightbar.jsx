@@ -1,20 +1,16 @@
-import { useState } from "react";
+// import { useState } from "react";
 import Carousel from "./carousel";
 import Online from "./online";
 
-const Rightbar = () => {
-  const [state, Setstate] = useState(false);
-  function handleClick() {
-    Setstate((prev) => !prev);
-  }
+const Rightbar = ({ handleClick, rightnav }) => {
   return (
     <>
       <div></div>
       <button
         onClick={handleClick}
-        className=" z-10 top-[50%] right-0 bg-lightBlue p-2 rounded-l-full  rounded-b-full fixed hover:brightness-125 hover:translate-x-1  active:brightness-125 focus:brightness-125"
+        className=" z-10 top-[50%] right-0 bg-lightBlue p-2 rounded-l-full  rounded-b-full fixed hover:brightness-125 hover:translate-x-1  active:brightness-125 focus:brightness-125 lg:hidden"
       >
-        {state ? (
+        {rightnav ? (
           <img
             src="/src/images/icons8-right-48 (1).png"
             alt=""
@@ -25,8 +21,8 @@ const Rightbar = () => {
         )}
       </button>
       <section
-        className={`max-w-[70%]   py-2 pr-6  px-4 ml-auto bg-white z-2 shadow-lg top-[10rem] right-0 fixed overflow-y-scroll  h-5/6 scrollbar ${
-          state
+        className={`max-w-[70%]   py-2 pr-6  px-4 ml-auto bg-white z-2 shadow-lg top-[10rem] lg:top-[7rem] right-0 fixed overflow-y-scroll  h-5/6 scrollbar sm:max-w-[40%] sm:h-screen lg:w-[30%] lg:block lg:translate-x-0 lg:h-screen lg:shadow-0 ${
+          rightnav
             ? "translate-x-0 duration-100 ease-in-out"
             : "translate-x-full duration-100 ease-in-out"
         } `}
