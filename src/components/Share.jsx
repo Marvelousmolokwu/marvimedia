@@ -1,6 +1,6 @@
 const Share = () => {
   return (
-    <div className="max-w-[90%] mx-auto shadow-md p-6 my-4 -z-10 sm:p-2 lg:p-6">
+    <div className="max-w-[90%] mx-auto shadow-md p-3 my-4 -z-10 sm:p-2 lg:p-6">
       <div className=" flex items-center my-4">
         <div className="rounded-full w-12 h-12 p-1 mr-2 bg-profile bg-cover bg-center object-cover"></div>
         <input
@@ -13,7 +13,7 @@ const Share = () => {
 
       <hr />
       <div className="flex justify-between my-4">
-        <div className="flex gap-4 text-[12px] font-semibold sm:gap-1 sm:text-[10px] lg:gap-4 lg:text-[12px]">
+        <div className="flex  font-semibold gap-1 sm:gap-1 text-[10px] lg:gap-4 lg:text-[12px]">
           <div className="flex items-center">
             <img src="/src/images/icons8-media-48.png" alt="" className="h-6" />
             <span>Photo and Videos</span>
