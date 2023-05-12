@@ -66,7 +66,7 @@ const Carousel = () => {
         </SwiperSlide>
         <SwiperSlide>
           <a href="">
-            {" "}
+          
             <img
               src="/src/images/dress2.avif"
               alt=""
