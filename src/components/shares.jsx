@@ -1,4 +1,4 @@
-const Share = () => {
+const Shares = () => {
   return (
     <div className="max-w-[90%] mx-auto shadow-md p-3 my-4 -z-10 sm:p-2 lg:p-6">
       <div className=" flex items-center my-4">
@@ -51,4 +51,4 @@ const Share = () => {
   );
 };
 
-export default Share;
+export default Shares;
