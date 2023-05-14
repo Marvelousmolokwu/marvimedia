@@ -1,5 +1,8 @@
 // import { useState } from "react";
 
+import CloseFriends from "./CloseFriends";
+import User from "../../src/components/data/User.json";
+
 const Sidebar = ({ handleClick, sidenav }) => {
   return (
     <section className=" relative">
@@ -95,54 +98,9 @@ const Sidebar = ({ handleClick, sidenav }) => {
           Show more
         </button>
         <hr />
-        <div className="flex gap-3 my-2 items-center px-4 hover:bg-blulish hover:py-3 sm:gap-1 lg:px-10">
-          <div className="rounded-full w-8 h-8 py-1  mr-2 bg-profile2 bg-cover bg-center object-cover"></div>
-          <p className="font-semibold sm:text-[14px] lg:text-[18px]">
-            Berry Cane
-          </p>
-        </div>
-        <div className="flex gap-3 my-2 items-center px-4 hover:bg-blulish hover:py-3 lg:px-10">
-          <div className="rounded-full w-8 h-8 p-1 mr-2 bg-profile2 bg-cover bg-center object-cover"></div>
-          <p className="font-semibold sm:text-[14px] lg:text-[18px]">
-            Berry Cane
-          </p>
-        </div>
-        <div className="flex gap-3 my-2 items-center px-4 hover:bg-blulish hover:py-3 lg:px-10">
-          <div className="rounded-full w-8 h-8 p-1 mr-2 bg-profile2 bg-cover bg-center object-cover"></div>
-          <p className="font-semibold sm:text-[14px] lg:text-[18px]">
-            Berry Cane
-          </p>
-        </div>
-        <div className="flex gap-3 my-2 items-center px-4 hover:bg-blulish hover:py-3 lg:px-10">
-          <div className="rounded-full w-8 h-8 p-1 mr-2 bg-profile2 bg-cover bg-center object-cover"></div>
-          <p className="font-semibold sm:text-[14px] lg:text-[18px]">
-            Berry Cane
-          </p>
-        </div>
-        <div className="flex gap-3 my-2 items-center px-4 hover:bg-blulish hover:py-3 lg:px-10">
-          <div className="rounded-full w-8 h-8 p-1 mr-2 bg-profile2 bg-cover bg-center object-cover"></div>
-          <p className="font-semibold sm:text-[14px] lg:text-[18px]">
-            Berry Cane
-          </p>
-        </div>
-        <div className="flex gap-3 my-2 items-center px-4 hover:bg-blulish hover:py-3 lg:px-10">
-          <div className="rounded-full w-8 h-8 p-1 mr-2 bg-profile2 bg-cover bg-center object-cover"></div>
-          <p className="font-semibold sm:text-[14px] lg:text-[18px]">
-            Berry Cane
-          </p>
-        </div>
-        <div className="flex gap-3 my-2 items-center px-4 hover:bg-blulish hover:py-3 lg:px-10">
-          <div className="rounded-full w-8 h-8 p-1 mr-2 bg-profile2 bg-cover bg-center object-cover"></div>
-          <p className="font-semibold sm:text-[14px] lg:text-[18px]">
-            Berry Cane
-          </p>
-        </div>
-        <div className="flex gap-3 my-2 items-center px-4 hover:bg-blulish hover:py-3 lg:px-10">
-          <div className="rounded-full w-8 h-8 p-1 mr-2 bg-profile2 bg-cover bg-center object-cover"></div>
-          <p className="font-semibold sm:text-[14px] lg:text-[18px]">
-            Berry Cane
-          </p>
-        </div>
+        {User.map((user) => (
+          <CloseFriends key={User.id} user={user} />
+        ))}
       </nav>
     </section>
   );

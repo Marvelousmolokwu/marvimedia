@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "profilePicture": "/src/images/man1.avif",
+    "userName": "sir bridgeton"
+  },
+  {
+    "id": 2,
+    "profilePicture": "/src/images/man2.avif",
+    "userName": "louis bridgeton"
+  },
+  {
+    "id": 3,
+    "profilePicture": "/src/images/man3.avif",
+    "userName": "simir coshi"
+  },
+  {
+    "id": 4,
+    "profilePicture": "/src/images/woman1.avif",
+    "userName": "alex mayers"
+  },
+  {
+    "id": 5,
+    "profilePicture": "/src/images/woman2.avif",
+    "userName": "lexis mchart"
+  },
+  {
+    "id": 6,
+    "profilePicture": "/src/images/woman3.avif",
+    "userName": "mira sanchez"
+  },
+  {
+    "id": 7,
+    "profilePicture": "/src/images/woman4.avif",
+    "userName": "abigail jonas"
+  },
+  {
+    "id": 8,
+    "profilePicture": "/src/images/whitte.avif",
+    "userName": "clement nyam"
+  },
+  {
+    "id": 9,
+    "profilePicture": "/src/images/blue.avif",
+    "userName": "constance libo"
+  },
+  {
+    "id": 10,
+    "profilePicture": "/src/images/man3.avif",
+    "userName": "jimmy newton"
+  }
+]

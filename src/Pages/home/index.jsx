@@ -1,7 +1,7 @@
 import Topbar from "../../components/Topbar";
 import Sidebar from "../../components/Sidebar";
 import Rightbar from "../../components/Rightbar";
-import Feed from "../../components/Feed";
+import Feed from "../../components/feed";
 import { useState } from "react";
 
 const Home = () => {

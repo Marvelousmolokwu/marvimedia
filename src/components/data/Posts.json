@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "desc": "Love for all, Hatered for none",
+    "photo": "/src/images/women.avif",
+    "date": "5 mins ago",
+    "userId": 1,
+    "like": 32,
+    "comment": 9
+  },
+  {
+    "id": 2,
+    "desc": "My God lives",
+    "photo": "/src/images/women.avif",
+    "date": "15 mins ago",
+    "userId": 2,
+    "like": 302,
+    "comment": 97
+  },
+  {
+    "id": 3,
+    "desc": "Congrates to me! 💖💖",
+    "photo": "/src/images/women.avif",
+    "date": "17 mins ago",
+    "userId": 3,
+    "like": 32,
+    "comment": 19
+  },
+  {
+    "id": 4,
+    "desc": "I am a Star",
+    "photo": "/src/images/women.avif",
+    "date": "55 mins ago",
+    "userId": 4,
+    "like": 70,
+    "comment": 8
+  },
+  {
+    "id": 5,
+
+    "photo": "/src/images/women.avif",
+    "date": "5 mins ago",
+    "userId": 5,
+    "like": 3,
+    "comment": 1
+  },
+  {
+    "id": 6,
+    "desc": "SunShine 🌞",
+    "photo": "/src/images/women.avif",
+    "date": "59 mins ago",
+    "userId": 6,
+    "like": 89,
+    "comment": 49
+  },
+  {
+    "id": 7,
+    "desc": "Abuja💕",
+    "photo": "/src/images/women.avif",
+    "date": "1 hour ago",
+    "userId": 7,
+    "like": 50,
+    "comment": 8
+  },
+  {
+    "id": 8,
+    "desc": "Monday🤞",
+    "photo": "/src/images/women.avif",
+    "date": "2 hours ago",
+    "userId": 8,
+    "like": 53,
+    "comment": 75
+  },
+  {
+    "id": 9,
+    "desc": "Hatered for none ✨",
+    "photo": "/src/images/women.avif",
+    "date": "5 mins ago",
+    "userId": 9,
+    "like": 32,
+    "comment": 9
+  },
+  {
+    "id": 10,
+    "desc": "Music 🎶",
+    "photo": "/src/images/women.avif",
+    "date": "1 hour ago",
+    "userId": 10,
+    "like": 82,
+    "comment": 42
+  }
+]
