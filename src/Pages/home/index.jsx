@@ -1,7 +1,7 @@
 import Topbar from "../../components/Topbar";
 import Sidebar from "../../components/Sidebar";
 import Rightbar from "../../components/Rightbar";
-import Feed from "../../components/feed";
+import Feeds from "../../components/Feeds";
 import { useState } from "react";
 
 const Home = () => {
@@ -23,7 +23,7 @@ const Home = () => {
       <Topbar />
       <main className="overflow-hidden ">
         <Sidebar sidenav={sidenav} handleClick={handleSideClick} />
-        <Feed />
+        <Feeds />
         <Rightbar rightnav={rightnav} handleClick={handleNavClick} />
       </main>
     </>

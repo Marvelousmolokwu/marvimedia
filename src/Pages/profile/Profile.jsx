@@ -1,7 +1,7 @@
 import Topbar from "../../components/Topbar";
 import Sidebar from "../../components/Sidebar";
 
-import Feed from "../../components/feed";
+import Feeds from "../../components/Feeds";
 import { useState } from "react";
 import Rightbar from "../../components/Rightbar";
 
@@ -40,7 +40,7 @@ const Profile = () => {
           </div>
         </div>
 
-        <Feed />
+        <Feeds />
         <Rightbar profile rightnav={rightnav} handleClick={handleNavClick} />
       </main>
     </>
