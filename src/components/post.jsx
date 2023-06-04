@@ -25,14 +25,14 @@ const Post = ({ post }) => {
         </h3>
         <p className="text-[12px]">{post.date}</p>
         <img
-          src="/src/images/icons8-menu-24.png"
+          src="https://res.cloudinary.com/ddgyd8szc/image/upload/v1685646465/icons8-menu-24_yiadu6.png"
           alt=""
           className="h-4 ml-auto cursor-pointer "
         />
       </div>
       <h3 className="my-4">{post?.desc}</h3>
-      <div>
-        <img src={post.photo} alt="" className="lg:w-full" />
+      <div className="h-[40vh] lg:h-[60vh]">
+        <img src={post.photo} alt="" className="h-full w-full" />
       </div>
       <div className="flex mt-3 items-center gap-2">
         <button
@@ -40,14 +40,14 @@ const Post = ({ post }) => {
           onClick={likeHandler}
         >
           <img
-            src="/src/images/icons8-like-64.png"
+            src="https://res.cloudinary.com/ddgyd8szc/image/upload/v1685646461/icons8-like-64_jehqlj.png"
             alt=""
             className="w-6 drop-shadow-lg"
           />
         </button>
         <button className="hover:-translate-y-[0.5px] hover:sepia active:sepia focus:sepia">
           <img
-            src="/src/images/icons8-speech-bubble-50.png"
+            src="https://res.cloudinary.com/ddgyd8szc/image/upload/v1685646474/icons8-speech-bubble-50_b7xble.png"
             alt=""
             className="w-6 drop-shadow-lg"
           />
@@ -56,7 +56,7 @@ const Post = ({ post }) => {
         <span className="text-[12px] drop-shadow-lg">{like}</span>
         <button className="ml-auto  hover:-translate-y-[0.5px] hover:sepia active:sepia focus:sepia">
           <img
-            src="/src/images/icons8-tag-64.png"
+            src="https://res.cloudinary.com/ddgyd8szc/image/upload/v1685646468/icons8-tag-64_dcohno.png"
             alt=""
             className="w-6 drop-shadow-lg"
           />

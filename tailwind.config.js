@@ -7,7 +7,8 @@ export default {
       roboto: ["Roboto", " sans-serif"],
     },
     backgroundImage: {
-      profile: "url('/src/images/woman1.avif')",
+      profile:
+        "url('https://res.cloudinary.com/ddgyd8szc/image/upload/v1685646475/woman3_knlaah.avif')",
       profile2: "url('/src/images/man1.avif')",
     },
     screens: {

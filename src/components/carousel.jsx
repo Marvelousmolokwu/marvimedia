@@ -31,7 +31,7 @@ const Carousel = () => {
         <SwiperSlide>
           <a href="">
             <img
-              src="/src/images/cheetos.avif"
+              src="https://res.cloudinary.com/ddgyd8szc/image/upload/v1685206900/cheetos_xr5qqf.avif"
               alt=""
               className="h-80 w-[100%]"
             />
@@ -40,7 +40,7 @@ const Carousel = () => {
         <SwiperSlide>
           <a href="">
             <img
-              src="/src/images/coke.avif"
+              src="https://res.cloudinary.com/ddgyd8szc/image/upload/v1685646455/coke_bhqeeq.avif"
               alt=""
               className="h-80 w-[100%] "
             />
@@ -49,7 +49,7 @@ const Carousel = () => {
         <SwiperSlide>
           <a href="">
             <img
-              src="/src/images/dress.avif"
+              src="https://res.cloudinary.com/ddgyd8szc/image/upload/v1685646456/dress2_eng552.avif"
               alt=""
               className="h-80 w-[100%] "
             />
@@ -58,7 +58,7 @@ const Carousel = () => {
         <SwiperSlide>
           <a href="">
             <img
-              src="/src/images/fanta.avif"
+              src="https://res.cloudinary.com/ddgyd8szc/image/upload/v1685646456/fanta_xpgkrm.avif"
               alt=""
               className="h-80 w-[100%] "
             />
@@ -66,9 +66,8 @@ const Carousel = () => {
         </SwiperSlide>
         <SwiperSlide>
           <a href="">
-          
             <img
-              src="/src/images/dress2.avif"
+              src="https://res.cloudinary.com/ddgyd8szc/image/upload/v1685646454/dress_rrvptf.avif"
               alt=""
               className="h-80 w-[100%] "
             />

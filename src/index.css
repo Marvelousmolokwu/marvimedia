@@ -8,6 +8,16 @@
     @apply bg-red-600 rounded-full text-white w-3 h-3 flex justify-center items-center absolute left-[12px] cursor-pointer;
   }
 }
+@layer base {
+  html {
+    @apply overflow-x-hidden bg-blulish;
+  }
+}
+@layer base {
+  body {
+    @apply overflow-x-hidden bg-white;
+  }
+}
 @layer utilities {
   .sidebar {
     @apply h-screen;

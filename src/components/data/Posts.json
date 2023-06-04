@@ -2,7 +2,7 @@
   {
     "id": 1,
     "desc": "Love for all, Hatered for none",
-    "photo": "/src/images/women.avif",
+    "photo": "https://res.cloudinary.com/ddgyd8szc/image/upload/v1685903406/photo-1521510186458-bbbda7aef46b_jta7v3.avif",
     "date": "5 mins ago",
     "userId": 1,
     "like": 32,
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "desc": "My God lives",
-    "photo": "/src/images/women.avif",
+    "photo": "https://res.cloudinary.com/ddgyd8szc/image/upload/v1685646475/woman3_knlaah.avif",
     "date": "15 mins ago",
     "userId": 2,
     "like": 302,
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "desc": "Congrates to me! 💖💖",
-    "photo": "/src/images/women.avif",
+    "photo": "https://res.cloudinary.com/ddgyd8szc/image/upload/v1685903405/photo-1484517186945-df8151a1a871_fsf5uk.avif",
     "date": "17 mins ago",
     "userId": 3,
     "like": 32,
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "desc": "I am a Star",
-    "photo": "/src/images/women.avif",
+    "photo": "https://res.cloudinary.com/ddgyd8szc/image/upload/v1685646476/man1_jrbgiz.avif",
     "date": "55 mins ago",
     "userId": 4,
     "like": 70,
@@ -38,7 +38,7 @@
   {
     "id": 5,
 
-    "photo": "/src/images/women.avif",
+    "photo": "https://res.cloudinary.com/ddgyd8szc/image/upload/v1685646472/women_begkmd.avif",
     "date": "5 mins ago",
     "userId": 5,
     "like": 3,
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "desc": "SunShine 🌞",
-    "photo": "/src/images/women.avif",
+    "photo": "https://res.cloudinary.com/ddgyd8szc/image/upload/v1685646471/man2_mp7soh.avif",
     "date": "59 mins ago",
     "userId": 6,
     "like": 89,
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "desc": "Abuja💕",
-    "photo": "/src/images/women.avif",
+    "photo": "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681806543/image-restaurant_ey7elk.jpg",
     "date": "1 hour ago",
     "userId": 7,
     "like": 50,
@@ -65,7 +65,7 @@
   {
     "id": 8,
     "desc": "Monday🤞",
-    "photo": "/src/images/women.avif",
+    "photo": "https://res.cloudinary.com/ddgyd8szc/image/upload/v1685646476/man1_jrbgiz.avif",
     "date": "2 hours ago",
     "userId": 8,
     "like": 53,
@@ -74,7 +74,7 @@
   {
     "id": 9,
     "desc": "Hatered for none ✨",
-    "photo": "/src/images/women.avif",
+    "photo": "https://res.cloudinary.com/ddgyd8szc/image/upload/v1685646473/woman1_wzayep.avif",
     "date": "5 mins ago",
     "userId": 9,
     "like": 32,
@@ -83,10 +83,19 @@
   {
     "id": 10,
     "desc": "Music 🎶",
-    "photo": "/src/images/women.avif",
+    "photo": "https://res.cloudinary.com/ddgyd8szc/image/upload/v1685646472/man3_glrasl.avif",
     "date": "1 hour ago",
     "userId": 10,
     "like": 82,
     "comment": 42
+  },
+  {
+    "id": 11,
+    "desc": "cuties 😚😙",
+    "photo": "https://res.cloudinary.com/ddgyd8szc/image/upload/v1685903405/photo-1570545917537-873e36d4f64a_zsvafx.avif",
+    "date": "21 hours ago",
+    "userId": 11,
+    "like": 182,
+    "comment": 40
   }
 ]
