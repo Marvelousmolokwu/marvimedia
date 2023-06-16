@@ -1,7 +1,7 @@
 const Online = ({ user }) => {
   console.log(user);
   return (
-    <div className="mt-3 hover:bg-blulish hover:py-1 px-0 hover:rounded-md hover:delay-100">
+    <div className="mt-3 hover:bg-blulish hover:py-1 px-0 hover:rounded-md delay-100">
       <div className="flex items-center relative my-2">
         <div>
           <div className="h-4 w-4 rounded-full bg-green-400 border-white border-2 absolute left-[23px]  z-10"></div>

@@ -38,11 +38,11 @@ const Sidebar = ({ handleClick, sidenav, menuRef }) => {
         ref={menuRef}
       >
         <ul className="flex flex-col gap-1 text-left mt-1 sm:mt-0">
-          <li className="flex items-end justify-start py-2 px-4 mt-4 hover:bg-blulish hover:py-3 sm:mt-0 lg:px-10 hover:mx-2 hover:rounded-md hover:delay-100 ">
+          <li className="flex items-end justify-start py-2 px-4 mt-4 hover:bg-blulish hover:py-3 sm:mt-0 lg:px-10 hover:mx-2 hover:rounded-md delay-100 ">
             <img src="/src/images/icons8-feed-64.png" className="h-6" alt="" />
             <span className="text-lightBlue font-semibold ml-2">Feed</span>
           </li>
-          <li className="flex items-end justify-start py-2  px-4 hover:bg-blulish hover:py-3 lg:px-10 hover:mx-2 hover:rounded-md hover:delay-100 ">
+          <li className="flex items-end justify-start py-2  px-4 hover:bg-blulish hover:py-3 lg:px-10 hover:mx-2 hover:rounded-md delay-100 ">
             <img
               src="https://res.cloudinary.com/ddgyd8szc/image/upload/v1685646456/icons8-chat-message-50_zhg3mv.png"
               className="h-6"
@@ -50,11 +50,11 @@ const Sidebar = ({ handleClick, sidenav, menuRef }) => {
             />
             <span className="text-lightBlue font-semibold ml-2">Chats</span>
           </li>
-          <li className="flex items-end justify-start py-2  px-4 hover:bg-blulish hover:py-3 lg:px-10 hover:mx-2 hover:rounded-md hover:delay-100 ">
+          <li className="flex items-end justify-start py-2  px-4 hover:bg-blulish hover:py-3 lg:px-10 hover:mx-2 hover:rounded-md delay-100 ">
             <img src="/src/images/icons8-video-24.png" className="h-6" alt="" />
             <span className="text-lightBlue font-semibold ml-2">Video</span>
           </li>
-          <li className="flex items-end justify-start py-2  px-4 hover:bg-blulish hover:py-3 lg:px-10 hover:mx-2 hover:rounded-md hover:delay-100 ">
+          <li className="flex items-end justify-start py-2  px-4 hover:bg-blulish hover:py-3 lg:px-10 hover:mx-2 hover:rounded-md delay-100 ">
             <img
               src="/src/images/icons8-user-groups-50.png"
               className="h-6"
@@ -62,7 +62,7 @@ const Sidebar = ({ handleClick, sidenav, menuRef }) => {
             />
             <span className="text-lightBlue font-semibold ml-2">Groups</span>
           </li>
-          <li className="flex items-end justify-start py-2  px-4 hover:bg-blulish hover:py-3 lg:px-10 hover:mx-2 hover:rounded-md hover:delay-100 ">
+          <li className="flex items-end justify-start py-2  px-4 hover:bg-blulish hover:py-3 lg:px-10 hover:mx-2 hover:rounded-md delay-100 ">
             <img
               src="/src/images/icons8-bookmarks-64.png"
               className="h-6"
@@ -70,7 +70,7 @@ const Sidebar = ({ handleClick, sidenav, menuRef }) => {
             />
             <span className="text-lightBlue font-semibold ml-2">Bookmarks</span>
           </li>
-          <li className="flex items-end justify-start py-2  px-4 hover:bg-blulish hover:py-3 lg:px-10 hover:mx-2 hover:rounded-md hover:delay-100 ">
+          <li className="flex items-end justify-start py-2  px-4 hover:bg-blulish hover:py-3 lg:px-10 hover:mx-2 hover:rounded-md delay-100 ">
             <img
               src="https://res.cloudinary.com/ddgyd8szc/image/upload/v1685646466/icons8-question-mark-30_lu5oiq.png"
               className="h-6"

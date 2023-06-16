@@ -1,6 +1,6 @@
 const CloseFriends = ({ user }) => {
   return (
-    <div className="flex gap-3 my-2 items-center px-2 hover:bg-blulish hover:py-2 lg:px-8 mx-2 hover:rounded-md hover:delay-100 sm:gap-1 ">
+    <div className="flex gap-3 my-2 items-center px-2 hover:bg-blulish hover:py-2 lg:px-8 mx-2 hover:rounded-md delay-100 sm:gap-1 ">
       <div className=" py-1  mr-2 ">
         <img
           src={user.profilePicture}
